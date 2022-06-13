@@ -1,0 +1,22 @@
+h3{
+    font-size: 28px !important;
+}
+
+.btn-warning:hover{
+    background-color: brown;
+}
+
+canvas{
+    animation-name: joaquin;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes joaquin {
+    from{
+        box-shadow: 1px 1px 150px deepskyblue;
+    }
+    to{
+        box-shadow: 1px 1px 150px orange;
+    }
+}
